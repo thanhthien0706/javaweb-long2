@@ -14,4 +14,10 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("admin/home");
 		return mav;
 	}
+
+	@RequestMapping(value = "/new", method = RequestMethod.GET)
+	public ModelAndView newPage() {
+		ModelAndView mav = new ModelAndView("admin/home");
+		return mav;
+	}
 }

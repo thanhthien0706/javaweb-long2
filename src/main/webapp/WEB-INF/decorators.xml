@@ -2,12 +2,12 @@
 <decorators defaultdir="/decorators">
 
 	<!-- Apply web template -->
-	<decorator name="trang-chu" page="web.jsp">
-		<pattern>/trang-chu</pattern>
+	<decorator name="web" page="web.jsp">
+		<pattern>/*</pattern>
 	</decorator>
 
 	<!-- Apply admin template -->
 	<decorator name="admin" page="admin.jsp">
-		<pattern>/home</pattern>
+		<pattern>/admin*</pattern>
 	</decorator>
 </decorators>
